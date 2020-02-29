@@ -1,13 +1,13 @@
-# GuLiShangCheng
+# GuLiShangCheng  
 bilibili网站尚硅谷项目视频
 
-##2020-02-29 15:33:02
+##2020-02-29 15:33:02  
 ·提交测试
 ·只提交pom.xml文件和src目录下的源代码  
 ·git-->add-->git-->Commit Directory-->Commit  
 ·git-->Repository-->Push  
 
-##2020-02-29 16:11:09
+##2020-02-29 16:11:09  
 新建Module-->spring initializr 2.2.5
 group:com.atguigu.gmall  
 artifact:gmall-user  
@@ -15,7 +15,7 @@ package:com.atguigu.gmall.user
 勾选 Web MySQL JDBC MyBatis  
 上传  
 
-##2020-02-29 16:29:48
+##2020-02-29 16:29:48  
 gmall-user Module  
 在resources目录下创建mapper文件夹  
     新建UserMapper.xml
@@ -30,4 +30,7 @@ com.atguigu.gmall.user.service 包
 com.atguigu.gmall.user.mapper 包  
     新建UserMapper接口  
 com.atguigu.gmall.user.bean 包  
-可以运行GmallUserApplication，在localhost中访问到UserController的index方法  
+可以运行GmallUserApplication，在localhost中访问到UserController的index方法    
+
+##2020-02-29 22:56:00  
+实现：访问localhost:8080/getAllUser 显示ums_member表所有数据
