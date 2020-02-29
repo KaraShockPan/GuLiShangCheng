@@ -10,5 +10,6 @@
         select t.* from ums_member t
 
     </select>
+
 </mapper>
 

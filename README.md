@@ -33,4 +33,11 @@ com.atguigu.gmall.user.bean 包
 可以运行GmallUserApplication，在localhost中访问到UserController的index方法    
 
 ##2020-02-29 22:56:00  
-实现：访问localhost:8080/getAllUser 显示ums_member表所有数据
+实现：访问localhost:8080/getAllUser 显示ums_member表所有数据  
+
+##2020-03-01 00:18:56
+使用通用mapper，加入tk.mybatis后会一直报  
+Caused by: java.util.NoSuchElementException: No value bound  
+和  
+Caused by: java.lang.reflect.InvocationTargetException  
+的错误，将tk.mybatis的版本从1.2.3改为2.0.2后项目正常启动  
