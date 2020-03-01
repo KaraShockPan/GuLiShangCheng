@@ -44,3 +44,9 @@ Caused by: java.lang.reflect.InvocationTargetException
 
 ##2020-03-01 11:26:10  
 实现根据memberId查询所有数据，将日志级别设置到debug来显示sql语句  
+
+##2020-03-01 15:15:06  
+新建Maven Module：  
+gmall-parent:导入所有的jar包进行版本控制  
+和  
+gmall-api:将bean和service接口转入，并引入bean所需的tk.mapper通用Mapper  
