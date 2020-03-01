@@ -41,3 +41,6 @@ Caused by: java.util.NoSuchElementException: No value bound
 和  
 Caused by: java.lang.reflect.InvocationTargetException  
 的错误，将tk.mybatis的版本从1.2.3改为2.0.2后项目正常启动  
+
+##2020-03-01 11:26:10  
+实现根据memberId查询所有数据，将日志级别设置到debug来显示sql语句  
