@@ -50,3 +50,8 @@ Caused by: java.lang.reflect.InvocationTargetException
 gmall-parent:导入所有的jar包进行版本控制  
 和  
 gmall-api:将bean和service接口转入，并引入bean所需的tk.mapper通用Mapper  
+
+##2020-03-01 16:13:13
+创建Maven Module：  
+gmall-common-util gmall-service-util gmall-web-util  
+并将 gmall-user 拆解  
