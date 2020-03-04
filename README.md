@@ -55,3 +55,11 @@ gmall-api:将bean和service接口转入，并引入bean所需的tk.mapper通用M
 创建Maven Module：  
 gmall-common-util gmall-service-util gmall-web-util  
 并将 gmall-user 拆解  
+
+##2020-03-02 22:00:44  
+gmall-user-service用户服务的service层8070  
+gmall-user-web用户服务的web层8080  
+
+##2020-03-04 14:23:12  
+因springboot2.2.5与dubbo2.6.0版本产生冲突  
+所以将所有pom.xml文件与视频中统一  
