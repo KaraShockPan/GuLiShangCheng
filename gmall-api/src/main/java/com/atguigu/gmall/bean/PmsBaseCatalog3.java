@@ -6,16 +6,16 @@ import java.io.Serializable;
 public class PmsBaseCatalog3 implements Serializable {
 
     @Id
-    private String Id;
+    private String id;
     private String name;
-    private String catalog2;
+    private String catalog2Id;
 
     public String getId() {
-        return Id;
+        return id;
     }
 
     public void setId(String id) {
-        Id = id;
+        this.id = id;
     }
 
     public String getName() {
@@ -26,11 +26,11 @@ public class PmsBaseCatalog3 implements Serializable {
         this.name = name;
     }
 
-    public String getCatalog2() {
-        return catalog2;
+    public String getCatalog2Id() {
+        return catalog2Id;
     }
 
-    public void setCatalog2(String catalog2) {
-        this.catalog2 = catalog2;
+    public void setCatalog2Id(String catalog2Id) {
+        this.catalog2Id = catalog2Id;
     }
 }
