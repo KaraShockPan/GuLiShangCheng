@@ -63,3 +63,10 @@ gmall-user-web用户服务的web层8080
 ##2020-03-04 14:23:12  
 因springboot2.2.5与dubbo2.6.0版本产生冲突  
 所以将所有pom.xml文件与视频中统一  
+
+##2020-03-06 10:42:44  
+gmall-manage-service用户服务的service层8071  
+gmall-manage-web用户服务的web层8081  
+
+##2020-03-10 11:00:11  
+使用Node.js访问前端页面，通过后端请求一级分类数据  

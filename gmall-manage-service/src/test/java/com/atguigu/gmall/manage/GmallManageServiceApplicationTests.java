@@ -1,10 +1,10 @@
-package com.atguigu.gmall.user;
+package com.atguigu.gmall.manage;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GmallUserWebApplicationTests {
+class GmallManageServiceApplicationTests {
 
     @Test
     void contextLoads() {
