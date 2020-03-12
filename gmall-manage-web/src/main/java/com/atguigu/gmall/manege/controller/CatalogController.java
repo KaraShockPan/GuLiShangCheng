@@ -51,7 +51,12 @@ public class CatalogController {
     }
 
 
-    @RequestMapping("getcatalog3")
+    /**
+     *
+     * @param catalog2Id
+     * @return
+     */
+    @RequestMapping("getCatalog3")
     @ResponseBody
     public List<PmsBaseCatalog3> getCatalog3(String catalog2Id){
 
